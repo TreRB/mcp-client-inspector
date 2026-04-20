@@ -1,0 +1,41 @@
+{
+  "name": "valtik-mcp-client-inspector",
+  "version": "0.1.0",
+  "description": "Evil-MCP-server harness for testing client-side defenses in MCP-enabled IDEs (Cursor, Claude Code, Windsurf, Continue, Cline, Zed).",
+  "type": "module",
+  "bin": {
+    "mcp-client-inspector": "src/cli.js"
+  },
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test 'test/**/*.test.js'"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "security",
+    "pentest",
+    "llm",
+    "client-inspector",
+    "valtik"
+  ],
+  "author": "Valtik Studios LLC",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TreRB/mcp-client-inspector"
+  }
+}
